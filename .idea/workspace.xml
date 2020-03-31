@@ -3,12 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="3defbd5a-b7e5-4ef5-bcf5-2d1f0b0294af" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/store/catalog/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/store/catalog/admin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/store/catalog/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/store/catalog/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/store/catalog/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/store/catalog/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/store/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/store/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/store/catalog/templates/products/products_list.html" beforeDir="false" afterPath="$PROJECT_DIR$/store/catalog/templates/products/products_list.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/store/store/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/store/store/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/store/store/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/store/store/urls.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,6 +68,10 @@
     </option>
   </component>
   <component name="WindowStateProjectService">
+    <state x="435" y="165" width="800" height="672" key="#Web_Browsers" timestamp="1585635961508">
+      <screen x="0" y="0" width="1680" height="1010" />
+    </state>
+    <state x="435" y="165" width="800" height="672" key="#Web_Browsers/0.0.1680.1010@0.0.1680.1010" timestamp="1585635961508" />
     <state x="298" y="162" width="1084" height="697" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1585624644732">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
@@ -80,5 +80,9 @@
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
     <state x="576" y="310" width="517" height="383" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1680.1010@0.0.1680.1010" timestamp="1585631527514" />
+    <state x="618" y="259" width="424" height="479" key="FileChooserDialogImpl" timestamp="1585635959204">
+      <screen x="0" y="0" width="1680" height="1010" />
+    </state>
+    <state x="618" y="259" width="424" height="479" key="FileChooserDialogImpl/0.0.1680.1010@0.0.1680.1010" timestamp="1585635959204" />
   </component>
 </project>

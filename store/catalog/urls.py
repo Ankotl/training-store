@@ -18,5 +18,5 @@ from django.urls import include, path
 
 urlpatterns = [
     path('', views.ProductView.as_view()),
-    path('<int:pk>/', views.ProductDetailView.as_view())
+    path('<slug:slug>/', views.ProductDetailView.as_view(), name='product_detail')
     ]

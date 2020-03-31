@@ -67,9 +67,15 @@
     <div class="media">
         <img src="{{ product.image.url }}" class=" rounded align-self-start mr-3" alt="..." style="width: 100px; height: 100px;">
         <div class="media-body">
-            <h5 class="mt-0">{{ product.name }}</h5>
-            <p>{{ product.price }} RUB</p>
-         </div>
+          <h4 class="mt-0" >
+            <a href="{{product.get_absolute_url}}" >
+              {{ product.name }}
+          </h4>
+        <div>
+          <p>{{ product.price }} RUB</p>
+        </div>
+
+        </div>
     </div>
   </li>
     {% endfor %}

@@ -61,22 +61,19 @@
   <p class="lead">Quickly build an effective pricing table for your potential customers with this Bootstrap example. It’s built with default Bootstrap components and utilities with little customization.</p>
 </div>
 
-<div class="container">
-  <div class="row justify-content-md-center">
+<ul class="list-unstyled">
+  <li class="media">
    {% for product in product_list %}
-    <div class="col">
-      <div class="card-header">
-        <h4 class="font-weight-normal">{{ product.name }}</h4>
-      </div>
-      <div class="card-body">
-        <h1 class="card-title pricing-card-title">{{ product.price }}rub</h1>
-        <img class="img-thumbnail" src={{ product.image.url }}>
-        <button type="button" class="btn btn-lg btn-block btn-outline-primary">Купить</button>
-      </div>
+    <div class="media">
+        <img src="{{ product.image.url }}" class=" rounded align-self-start mr-3" alt="..." style="width: 100px; height: 100px;">
+        <div class="media-body">
+            <h5 class="mt-0">{{ product.name }}</h5>
+            <p>{{ product.price }} RUB</p>
+         </div>
     </div>
+  </li>
     {% endfor %}
-  </div>
-</div>
+
 
   <footer class="pt-4 my-md-5 pt-md-5 border-top">
     <div class="row">

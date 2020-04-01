@@ -27,4 +27,4 @@ class AddReview(View):
             form = form.save(commit=False)
             form.product = product
             form.save()
-        return redirect('/')
+        return redirect(product.get_absolute_url())

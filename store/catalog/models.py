@@ -1,6 +1,5 @@
 from django.db import models
 
-
 # Create your models here.
 from django.urls import reverse
 
@@ -33,8 +32,6 @@ class Product(models.Model):
 
     def get_review(self):
         return self.reviews_set.filter(parent__isnull=True)
-
-
 
     class Meta:
         verbose_name = 'Товар'

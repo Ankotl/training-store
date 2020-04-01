@@ -25,6 +25,8 @@ class AddReview(View):
         product = Product.objects.get(article=slug)
         if form.is_valid():
             form = form.save(commit=False)
+            if request.POST.get('parent', None):
+                form.parent_id = int(request.POST.get('parent'))
             form.product = product
             form.save()
         return redirect(product.get_absolute_url())

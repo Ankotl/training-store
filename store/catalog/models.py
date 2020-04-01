@@ -31,6 +31,9 @@ class Product(models.Model):
     def get_absolute_url(self):
         return reverse('product_detail', kwargs={"slug": self.article})
 
+    def get_review(self):
+        return self.reviews_set.filter(parent__isnull=True)
+
 
 
     class Meta:

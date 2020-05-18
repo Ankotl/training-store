@@ -1,4 +1,5 @@
 venv/
-*.cpython-37.pyc
+*.pyc
 .idea/
 .gitignore
+venv1/

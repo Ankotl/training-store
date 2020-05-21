@@ -24,7 +24,13 @@
       {% endfor %}
     </ul>
   </nav>
-  <a class="btn btn-outline-primary" href="#">Войти</a>
+{% if user.is_authenticated %}
+<span>{{ user.username }}</span>
+	<a class="btn btn-outline-primary" href="{% url 'account_logout' %}">Выход</a>
+{% else %}
+  <a class="btn btn-outline-primary" href="{% url 'account_login' %}">Войти</a>
+  <a class="btn btn-outline-primary" href="{% url 'account_signup' %}">Регистрация</a>
+{% endif %}
 </div>
 
 <div class="pricing-header px-3 py-3 pt-md-5 pb-md-4 mx-auto text-center">
